@@ -1,4 +1,4 @@
-const codes = document.querySelectorAll('.code')
+const codes = document.querySelectorAll('.code')//selecting class with name code
 
 codes[0].focus()
 
