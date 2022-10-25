@@ -1,4 +1,4 @@
-const codes = document.querySelectorAll('.code')//selecting class with name code
+
 
 codes[0].focus()
 
@@ -11,4 +11,4 @@ codes.forEach((code, idx) => {
             setTimeout(() => codes[idx - 1].focus(), 10)
         }
     })
-})
+
